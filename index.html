@@ -9,21 +9,21 @@
     <h1>Shanti</h1>
     
     <p>Hey! <br> 
-      Io sono <span style="color:blueviolet;"><b>Shanti</b></span>, il chatbot realizzato per sensibilizzarti riguardo ai temi dell'<a href="https://unric.org/it/obiettivo-16-pace-giustizia-e-istituzioni-forti/">Obiettivo 16 dell'Agenda 2030 dell'ONU</a>: pace, giustizia e istituzioni solide.</p>
+      Io sono <span style="color:blueviolet;"><b>Shanti</b></span>, il chatbot realizzato per sensibilizzarti riguardo ai temi dell'<a href="https://unric.org/it/obiettivo-16-pace-giustizia-e-istituzioni-forti/">Obiettivo 16 dell'Agenda 2030 dell'ONU</a>: pace, giustizia e istituzioni solide.
+    </p>
 
-    <p>Lo scopo del chatbot è quello di portare consapevolezza e aiutare ad informarsi su tematiche importanti quali <i>guerre attuali</i> e <i>diritti umani</i>. </p>
+    <p>Lo scopo del chatbot è quello di portare consapevolezza e aiutare ad informarsi su tematiche importanti quali <i>guerre attuali</i> e <i>diritti umani</i>.</p>
     
 
-    Invitiamo ad iniziare la conversazione salutando Shanti.
+    <p>Invitiamo ad iniziare la conversazione salutando Shanti.</p>
 
     <script>
       window.watsonAssistantChatOptions = {
-        integrationID: "a7e002e9-2dbe-4770-9635-af286e72b90f", // The ID of the integration
-        region: "eu-de", // The region the integration is hosted in
-        serviceInstanceID: "8f7b4d7e-346e-499f-8eca-a6eeef2c8b8c", // The ID of the service instance
+        integrationID: "a840e067-6ffa-4c84-82f4-02682431c9cf", // The ID of this integration.
+        region: "eu-de", // The region your integration is hosted in.
+        serviceInstanceID: "8f7b4d7e-346e-499f-8eca-a6eeef2c8b8c", // The ID of your service instance.
         onLoad: async (instance) => { await instance.render(); }
       };
-      
       setTimeout(function(){
         const t=document.createElement('script');
         t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
